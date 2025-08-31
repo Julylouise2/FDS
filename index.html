@@ -1,79 +1,50 @@
-<!DOCTYPEhtml><htmllang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <metacharset="UTF-8">
-    <metaname="viewport"content="width=device-width, initial-scale=1.0">
-    <title>Portfólio juliana Louise Pampuche</title>
-
-    <linkrel="stylesheet"href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trabalho de Fundamentos de Desenvolvimento de Software</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><ahref="#sobre">Sobre Mim</a></li>
-                <li><ahref="#formacao">Formação</a></li>
-                <li><ahref="#portfolio">Portfólio</a></li>
-                <li><ahref="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-       <sectionid="sobre"class="conteudo">
-            <imgsrc="assets/foto.jpg"alt="Foto de Juliana Louise"class="profile-pic">
-                <h1>Sobre Mim</h1>
-                 <p>
-                   Eu Sou a Juliana, tenho 40 anos, sou casada há 18 anos
-                    tenho uma filha de 15 anos (Marielouise), sou formada em Tecnologia
-                        em Gastronomia e sou Chef de Cusine no Restaurante Ofusion.
-</p>
-       </section>
-
-        <sectionid="formacao"class="conteudo"style="display: none;">
-            <h1>Formação Educacional</h1>
-            <p>
-                Estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong>, com foco em desenvolver 
-                soluções práticas e eficientes para problemas do dia a dia.
-            </p>
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Português (Nativo)</li>
-                <li>Inglês (Básico)</li>
-            </ul>
-        </section>
-
-        <sectionid="portfolio"class="conteudo"style="display: none;">
-            <h1>Portfólio</h1>
-            <p>Restaurante do qual sou chef:</p>
-            <ul>
-                <li><ahref="https://www.instagram.com/restauranteofusion/"target="_blank">Restaurante Ofusion</a></li>
-            </ul>
-        </section>
-
-
-        <sectionid="contato"class="conteudo"style="display: none;">
-            <h1>Contato</h1>
-            <p>Tem alguma pergunta ou proposta? Me envie uma mensagem!</p>
-            <form>
-                <labelfor="nome">Nome:</label>
-                <inputtype="text"id="nome"name="nome">
-
-                <labelfor="email">Email:</label>
-                <inputtype="email"id="email"name="email">
-
-                <labelfor="mensagem">Mensagem:</label>
-                <textareaid="mensagem"name="mensagem"></textarea>
-
-                <buttontype="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-
-    <scriptsrc="script.js"></script>
-
-</body>
-</html>
-
-
-
+<!-- Título -->
+<h1>Juliana Louise Pampuche</h1>
+<!-- Parágrafo de Biografia -->
+<p>Olá! Sou Juliana Louise Pampuche. Possuo duas formações
+ em áreas bem distintas e pós gradução com enfoque na minha área atual.
+ Atualmente sou empresária e possuo um Restaurante em Curitiba. Tenho 40
+ anos, sou casada e tenho uma filha de 15 anos. No meu tempo oceoso, o
+ qual não é muito costumo ter as seguintes atividades:</p>
+<!-- Lista de hobbies -->
+<ul>
+<li>Viajar</li>
+<li>Jantar com os amigos</li>
+<li>Ler</li>
+</ul>
+<!-- Imagem representando um hobby -->
+    <img src="https://cdn.blablacar.com/wp-content/uploads/br/2024/05/05094506/comoplanejar-uma-viagem.webp" alt="Imagem de Música" style="borderradius: 10px; width: 300px; height: auto;">
+<!-- Tabela com países e imagens -->
+<table>
+<tr>
+<th>País</th>
+<th>Imagem</th>
+</tr>
+<tr>
+<td>Polinesia</td>
+<td><img src="https://images.travelclass.tur.br/uploads/2019/06/capa-polinesafrancesa.jpg" alt="Imagem da polinesia" style="width:150px;height:auto;"></td>
+</tr>
+<tr>
+<td>França</td>
+<td><img src="https://cdn.deliway.com.br/blog/base/026/a39/ae6/comidafrancesa.jpg" alt="Imagem da França" style="width:150px;height:auto;"></td>
+</tr>
+<tr>
+<td>Australia</td>
+<td><img src="https://malaecuia.com.br/blog/wpcontent/uploads/2023/02/E941D3AD-50D5-46C4-AD09-9415D27E199D.jpeg"
+alt="Imagem da Australia" style="width:150px;height:auto;"></td>
+</tr>
+</table>
+<!-- Link de interesse -->
+<p><a href="https://www.instagram.com/restauranteofusion/" target="_blank">Visite
+o Meu Maravilhoso Restaurante</a></p>
+<!-- Botão e interação com JavaScript -->
+<button id="msgButton">Clique para ver uma mensagem!</button>
